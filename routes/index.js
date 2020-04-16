@@ -4,13 +4,23 @@ const router = express.Router();
 
 const messages = [
   {
-    text: 'Hi there!',
-    user: 'Amando',
+    text: 'Has anyone had a good chilli dog lately?',
+    user: 'Ogilvie Maurice',
     added: new Date(),
   },
   {
-    text: 'Hello World!',
-    user: 'Charles',
+    text: 'Yeah the place in Green Hill is slammin.',
+    user: 'Miles',
+    added: new Date(),
+  },
+  {
+    text: 'I\'m more fond of bell peppers and beef.',
+    user: 'Spike',
+    added: new Date(),
+  },
+  {
+    text: 'A man of culture..',
+    user: 'Jet',
     added: new Date(),
   },
 ];
