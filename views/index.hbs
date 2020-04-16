@@ -1,2 +1,6 @@
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+
+{{#each messages as |message|}}
+<p><i>{{message.added}}</i> <strong>{{message.user}}:</strong> {{message.text}}</p>
+{{/each}}
+<a href="/new"><input type="button" value="New Post"></a>
