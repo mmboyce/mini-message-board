@@ -4,6 +4,10 @@
  * Module dependencies.
  */
 
+require('@babel/register')({
+  presets: ['@babel/preset-env'],
+});
+
 const app = require('../app');
 const debug = require('debug')('mini-message-board:server');
 const http = require('http');
