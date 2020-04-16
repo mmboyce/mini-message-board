@@ -1,6 +1,12 @@
 <h1>{{title}}</h1>
 
-{{#each messages as |message|}}
-<p><i>{{message.added}}</i> <strong>{{message.user}}:</strong> {{message.text}}</p>
-{{/each}}
-<a href="/new"><input type="button" value="New Post"></a>
+<div id="posts">
+  {{#each messages as |message|}}
+  <p>
+    <i class="date">{{message.added}}</i>
+    <strong class="user">{{message.user}}:</strong>
+    <span class="message">{{message.text}}</span>
+  </p>
+  {{/each}}
+</div>
+<a href="/new"><input type="button" value="New Post" class="button"></a>

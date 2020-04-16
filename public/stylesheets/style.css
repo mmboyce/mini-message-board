@@ -1,8 +1,61 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #b2ecb7;
 }
 
-a {
-  color: #00B7FF;
+#posts {
+  margin-bottom: 50px;
+}
+
+.date {
+  font-size: 0.85em;
+}
+
+.user {
+  font-size: 1.1em;
+  color: red;
+}
+
+#name {
+  color: red;
+}
+
+.message,
+.date,
+#message {
+  color: rgb(71, 71, 71);
+}
+
+.button {
+  background-color: red;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  color: white;
+}
+
+.button:hover {
+  background-color: white;
+  color: red;
+}
+
+#send-container {
+  display: flex;
+  background-color: white;
+  width: min-content;
+}
+
+#send {
+  border-radius: 0;
+  margin-left: 15px;
+}
+
+.field {
+  border-radius: 8px;
+  font-size: 1.5em;
+  padding: 10px;
+  border: none;
+  margin-right: 0;
 }

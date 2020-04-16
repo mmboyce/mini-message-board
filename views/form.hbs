@@ -1,8 +1,10 @@
 <h1>{{title}}</h1>
 <form action="/new" method="post">
   <h2>Name</h2>
-  <input type="text" name="name" id="name">
+  <input type="text" name="name" id="name" class="field">
   <h2>Message</h2>
-  <input type="text" name="message" id="message">
-  <input type="submit" value="Send">
+  <div id="send-container">
+    <input type="text" name="message" id="message" class="field">
+    <input type="submit" value="Send" class="button" id="send">
+  </div>
 </form>
